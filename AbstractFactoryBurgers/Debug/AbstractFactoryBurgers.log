@@ -1,0 +1,30 @@
+﻿  BurgerKingBurger.cpp
+  BurgerKingFactory.cpp
+  Client.cpp
+  FlameBroiledPattie.cpp
+  GrilledPattie.cpp
+  HeinzKetchup.cpp
+  HeinzMustard.cpp
+  Main.cpp
+  McDonaldsBurger.cpp
+  McDonaldsFactory.cpp
+  McDonaldsKetchup.cpp
+  McDonaldsMustard.cpp
+  NormalBun.cpp
+  SesameSeedBun.cpp
+  SourDillPickles.cpp
+  SweetPickles.cpp
+  WhiteOnions.cpp
+  Generating Code...
+E:\C++ siemens\AbstractFactoryBurgers\AbstractFactoryBurgers\McDonaldsFactory.cpp(22): warning C4172: returning address of local variable or temporary: ref
+E:\C++ siemens\AbstractFactoryBurgers\AbstractFactoryBurgers\McDonaldsFactory.cpp(35): warning C4172: returning address of local variable or temporary: ref
+E:\C++ siemens\AbstractFactoryBurgers\AbstractFactoryBurgers\McDonaldsFactory.cpp(28): warning C4172: returning address of local variable or temporary: ref
+E:\C++ siemens\AbstractFactoryBurgers\AbstractFactoryBurgers\McDonaldsFactory.cpp(16): warning C4172: returning address of local variable or temporary: ref
+E:\C++ siemens\AbstractFactoryBurgers\AbstractFactoryBurgers\McDonaldsFactory.cpp(47): warning C4172: returning address of local variable or temporary: ref
+E:\C++ siemens\AbstractFactoryBurgers\AbstractFactoryBurgers\McDonaldsFactory.cpp(41): warning C4172: returning address of local variable or temporary: ref
+E:\C++ siemens\AbstractFactoryBurgers\AbstractFactoryBurgers\BurgerKingFactory.cpp(20): warning C4172: returning address of local variable or temporary: ref
+E:\C++ siemens\AbstractFactoryBurgers\AbstractFactoryBurgers\BurgerKingFactory.cpp(25): warning C4172: returning address of local variable or temporary: ref
+E:\C++ siemens\AbstractFactoryBurgers\AbstractFactoryBurgers\BurgerKingFactory.cpp(14): warning C4172: returning address of local variable or temporary: ref
+E:\C++ siemens\AbstractFactoryBurgers\AbstractFactoryBurgers\BurgerKingFactory.cpp(35): warning C4172: returning address of local variable or temporary: ref
+E:\C++ siemens\AbstractFactoryBurgers\AbstractFactoryBurgers\BurgerKingFactory.cpp(41): warning C4172: returning address of local variable or temporary: ref
+  AbstractFactoryBurgers.vcxproj -> E:\C++ siemens\AbstractFactoryBurgers\Debug\AbstractFactoryBurgers.exe

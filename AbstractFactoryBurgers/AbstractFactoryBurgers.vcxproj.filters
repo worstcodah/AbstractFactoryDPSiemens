@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Interfaces">
+      <UniqueIdentifier>{69747e16-d67f-4a0a-8a69-ac8ace7f345f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Ingredients">
+      <UniqueIdentifier>{3a921e5e-91f7-427d-a9da-71a166902cbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ingredients">
+      <UniqueIdentifier>{d535a650-da0e-496a-bc6e-d4ac3b541e04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Factories">
+      <UniqueIdentifier>{b0a8b9cb-2cfd-4298-9b7c-cfddc7a01ed5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Burgers">
+      <UniqueIdentifier>{0dee334a-f79e-4e05-8493-5ea6f8eac387}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Burgers">
+      <UniqueIdentifier>{2b22a35a-cc01-4155-9bab-f9e7d82756fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Factories">
+      <UniqueIdentifier>{29d7fabf-d8be-4957-ab5e-c8dd731c15fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Enums">
+      <UniqueIdentifier>{6e2aa677-28eb-4f6d-8b3f-5319906354d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Client">
+      <UniqueIdentifier>{693c37c2-e12f-41af-b890-de318e7c98c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Client">
+      <UniqueIdentifier>{0ae26444-0208-4189-aae7-c0f7bfdc73a3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IBurgerFactory.h">
+      <Filter>Header Files\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IIngredientsFactory.h">
+      <Filter>Header Files\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IBun.h">
+      <Filter>Header Files\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IPattie.h">
+      <Filter>Header Files\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IPickles.h">
+      <Filter>Header Files\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IOnions.h">
+      <Filter>Header Files\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IKetchup.h">
+      <Filter>Header Files\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IMustard.h">
+      <Filter>Header Files\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SesameSeedBun.h">
+      <Filter>Header Files\Ingredients</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalBun.h">
+      <Filter>Header Files\Ingredients</Filter>
+    </ClInclude>
+    <ClInclude Include="SourDillPickles.h">
+      <Filter>Header Files\Ingredients</Filter>
+    </ClInclude>
+    <ClInclude Include="SweetPickles.h">
+      <Filter>Header Files\Ingredients</Filter>
+    </ClInclude>
+    <ClInclude Include="WhiteOnions.h">
+      <Filter>Header Files\Ingredients</Filter>
+    </ClInclude>
+    <ClInclude Include="McDonaldsKetchup.h">
+      <Filter>Header Files\Ingredients</Filter>
+    </ClInclude>
+    <ClInclude Include="BurgerKingBurger.h">
+      <Filter>Header Files\Burgers</Filter>
+    </ClInclude>
+    <ClInclude Include="McDonaldsBurger.h">
+      <Filter>Header Files\Burgers</Filter>
+    </ClInclude>
+    <ClInclude Include="BurgerKingFactory.h">
+      <Filter>Header Files\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="McDonaldsFactory.h">
+      <Filter>Header Files\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="McDonaldsMustard.h">
+      <Filter>Header Files\Ingredients</Filter>
+    </ClInclude>
+    <ClInclude Include="HeinzMustard.h">
+      <Filter>Header Files\Ingredients</Filter>
+    </ClInclude>
+    <ClInclude Include="HeinzKetchup.h">
+      <Filter>Header Files\Ingredients</Filter>
+    </ClInclude>
+    <ClInclude Include="GrilledPattie.h">
+      <Filter>Header Files\Ingredients</Filter>
+    </ClInclude>
+    <ClInclude Include="FlameBroiledPattie.h">
+      <Filter>Header Files\Ingredients</Filter>
+    </ClInclude>
+    <ClInclude Include="RestaurantChain.h">
+      <Filter>Header Files\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Header Files\Client</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GrilledPattie.cpp">
+      <Filter>Source Files\Ingredients</Filter>
+    </ClCompile>
+    <ClCompile Include="HeinzKetchup.cpp">
+      <Filter>Source Files\Ingredients</Filter>
+    </ClCompile>
+    <ClCompile Include="SesameSeedBun.cpp">
+      <Filter>Source Files\Ingredients</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalBun.cpp">
+      <Filter>Source Files\Ingredients</Filter>
+    </ClCompile>
+    <ClCompile Include="SweetPickles.cpp">
+      <Filter>Source Files\Ingredients</Filter>
+    </ClCompile>
+    <ClCompile Include="SourDillPickles.cpp">
+      <Filter>Source Files\Ingredients</Filter>
+    </ClCompile>
+    <ClCompile Include="WhiteOnions.cpp">
+      <Filter>Source Files\Ingredients</Filter>
+    </ClCompile>
+    <ClCompile Include="McDonaldsKetchup.cpp">
+      <Filter>Source Files\Ingredients</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BurgerKingFactory.cpp">
+      <Filter>Source Files\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="McDonaldsFactory.cpp">
+      <Filter>Source Files\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="BurgerKingBurger.cpp">
+      <Filter>Source Files\Burgers</Filter>
+    </ClCompile>
+    <ClCompile Include="McDonaldsBurger.cpp">
+      <Filter>Source Files\Burgers</Filter>
+    </ClCompile>
+    <ClCompile Include="HeinzMustard.cpp">
+      <Filter>Source Files\Ingredients</Filter>
+    </ClCompile>
+    <ClCompile Include="FlameBroiledPattie.cpp">
+      <Filter>Source Files\Ingredients</Filter>
+    </ClCompile>
+    <ClCompile Include="McDonaldsMustard.cpp">
+      <Filter>Source Files\Ingredients</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Source Files\Client</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
